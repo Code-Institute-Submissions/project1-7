@@ -1,0 +1,14 @@
+/********NAVBAR********/
+
+.navbar-dark {
+	background-color: #000000 !important;
+}
+
+
+@media (min-width:768px) {
+	
+    .navbar-static-top {position:fixed;top:0;right:0;left:0;}
+	
+}
+
+
