@@ -29,6 +29,15 @@ h1 {
 	background-color: #1f1f1f !important;
 }
 
+@media (max-width:767px) {
+	.navbar-dark {
+		background-color: #ffffff00 !important;
+	}
+	a.nav-link {
+		
+	}
+}
+
 /********LANDING-VIEW********/
 header{
 	background-image: url("../images/background/landing.jpg");
