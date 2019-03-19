@@ -115,3 +115,33 @@ header > h1 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/********ALBUMS********/
+
+#albums {
+	background-image: url("../images/background/albums.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+	padding: 50px 0px 50px 0px;
+	background-color: grey;
+
+	background-blend-mode: lighten;
+
+}
+
+@media (max-width:768px) {
+	.col-sm-12 {
+		padding: 10px 50px 10px 50px;
+
+	}
+}
+
+/********BUY********/
+
+/********FOLLOW********/
+
