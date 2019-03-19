@@ -9,6 +9,13 @@ body{
 
 }
 
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Rubik Mono One'; 
+
+	text-shadow: 2px 2px 4px #444444;
+}
 
 /********NAVBAR********/
 .navbar{
@@ -49,4 +56,34 @@ header > h1 {
     top:  50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+/********TOUR********/
+#tour {
+	background-image: url("../images/background/tour_blur.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	
+
+	text-transform: uppercase;
+	padding-top: 50px;
+	
+	font-family: 'Montserrat';
+	font-weight: bold;
+
+	line-height: 1.5;
+
+	background-color: rgb(99, 71, 49);
+	background-blend-mode: lighten;
+	
+}
+
+.tour-dates {
+	
+
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
