@@ -167,9 +167,9 @@ header > h1 {
 	height: 100%;
 }
 
-/********ALBUMS********/
+/********MUSIC********/
 
-#albums {
+#music {
 	/* background-image: url("../images/background/albums.jpg");
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -182,7 +182,7 @@ header > h1 {
 	background-blend-mode: lighten; */
 	
 	background-color: #1f1f1f;
-	padding: 50px 0px 50px 0px;
+	padding: 66px 0px 50px 0px;
 }
 
 @media (max-width:768px) {
@@ -202,7 +202,31 @@ header > h1 {
 		padding-bottom: 30px;
 	}
 }
+/* responsive spotify player, source: http://jsfiddle.net/JMPerez/qa73L/ */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+    .embed-container iframe,
+    .embed-container object,
+    .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 
+/* changes the height of the player and removes the scroll bar */
+@media (min-width:769px) {
+	.embed-container {
+		padding-bottom: 400px;
+	}
+}
 /********BUY********/
 
 /********FOLLOW********/
