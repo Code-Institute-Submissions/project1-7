@@ -170,38 +170,36 @@ header > h1 {
 /********MUSIC********/
 
 #music {
-	/* background-image: url("../images/background/albums.jpg");
-	background-repeat: no-repeat;
-	background-position: bottom;
-
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-
-	
-	background-blend-mode: lighten; */
-	
 	background-color: #1f1f1f;
 	padding: 66px 0px 50px 0px;
 }
 
 @media (max-width:768px) {
-	.col-sm-12 {
+	.albums > .col-sm-12 {
 		padding: 0px 50px 30px 50px;
 	}
 }
 
 @media (min-width:769px) {
-	.col-md-6 {
+	.albums > .col-md-6 {
 		padding-bottom: 30px;
 	}
 }
 
 @media (min-width:1200px) {
-	.col-lg-3 {
+	.albums > .col-lg-3 {
 		padding-bottom: 30px;
 	}
 }
+
+.album-cover > img {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(70,70,70,1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(70,70,70,1);
+	box-shadow: 0px 0px 15px 0px rgba(70,70,70,1);
+}
+
+
+
 /* responsive spotify player, source: http://jsfiddle.net/JMPerez/qa73L/ */
 .embed-container {
     position: relative;
