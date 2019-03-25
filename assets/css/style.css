@@ -67,36 +67,6 @@ header > h1 {
     transform: translate(-50%,-50%);
 }
 
-/********TOUR********/
-#tour {
-	background-image: url("../images/background/tour_blur.jpg");
-	background-repeat: no-repeat;
-	background-position: top;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-	
-
-	text-transform: uppercase;
-	padding-top: 50px;
-	
-	font-family: 'Montserrat';
-	font-weight: bold;
-
-	line-height: 1.5;
-
-	background-color: rgb(99, 71, 49);
-	background-blend-mode: lighten;
-	
-}
-
-.tour-dates {
-	
-
-	padding-top: 25px;
-	padding-bottom: 50px;
-}
-
 /********ABOUT********/
 
 #about {
@@ -225,6 +195,55 @@ header > h1 {
 		padding-bottom: 400px;
 	}
 }
+
+/********TOUR********/
+#tour {
+	padding-top: 66px;
+	padding-bottom: 50px;
+	
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-weight: bold;
+
+	line-height: 2;
+}
+
+.tour-dates {
+	padding-top: 25px;
+}
+
+/* grid styling */
+.tour-dates > .row {
+	padding: 10px 0px 10px 0px;
+}
+
+.tour-dates > .row:nth-of-type(2n+1) {
+	background-color: #303030;
+	padding: 10px 0px 10px 0px;
+}
+
+@media(max-width:991px){
+	.tour-dates > .row > div {
+		text-align: center;
+	}	
+}
+
+/* tickets button */
+.btn-buy {
+	color: #dbdada;
+	border-radius: 15px !important;
+	background-color: #7a7a7a !important;
+	
+}
+.btn-buy:hover{
+	background-color: #575757 !important;
+}
+
+.btn-buy:focus{
+	background-color: #333333 !important;
+	box-shadow:none !important;
+}
+
 /********BUY********/
 
 /********FOLLOW********/
