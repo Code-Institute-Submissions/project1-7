@@ -141,7 +141,7 @@ header > h1 {
 
 #music {
 	background-color: #1f1f1f;
-	padding: 66px 0px 50px 0px;
+	padding: 66px 0px 0px 0px;
 }
 
 @media (max-width:768px) {
@@ -196,6 +196,11 @@ header > h1 {
 	}
 }
 
+/********VIDEO********/
+#video{
+	padding-top: 66px;
+}
+
 /********TOUR********/
 #tour {
 	padding-top: 66px;
@@ -244,7 +249,4 @@ header > h1 {
 	box-shadow:none !important;
 }
 
-/********BUY********/
-
 /********FOLLOW********/
-
