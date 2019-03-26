@@ -39,10 +39,22 @@ h1 {
 }
 
 /********LANDING-VIEW********/
+
+@media(max-width:1090px){
+	header {
+		background-image: url("../images/background/landing2_cropped.jpg");
+		background-position: left;
+	}
+}
+
+@media(min-width:1091px){
+	header {
+		background-image: url("../images/background/landing2.jpg");
+		background-position: top;
+	}
+}
 header{
-	background-image: url("../images/background/landing.jpg");
 	background-repeat: no-repeat;
-	background-position: bottom; /* experiment with different values for different resolutions */
 	
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -50,12 +62,11 @@ header{
     -o-background-size: cover;
 
 	height: 100vh;
-	
 }
 
 header > h1 {
 	color: white;
-	font-size: 6.3em;
+	font-size: 4em;
 	font-family: 'Cinzel';
 	font-weight: bold;
 
