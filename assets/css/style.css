@@ -237,7 +237,7 @@ header > h1 {
 .btn-buy {
 	color: #dbdada;
 	border-radius: 15px !important;
-	background-color: #7a7a7a !important;
+	background-color: #808080 !important;
 	
 }
 .btn-buy:hover{
@@ -250,3 +250,20 @@ header > h1 {
 }
 
 /********FOLLOW********/
+
+.icons a {
+	color: #7a7a7a;
+
+	font-size: 40px;
+	padding-right: 20px;
+	
+	transition: all .5s ease;
+}
+
+.icons a:nth-child(3){
+	padding-right: 60px;
+}
+
+.icons a:hover {
+	color: white;
+}
