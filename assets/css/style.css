@@ -271,3 +271,16 @@ header > h1 {
 .icons a:hover {
 	color: white;
 }
+
+@media(max-width:461px){
+	.icons a{
+		font-size: 30px;
+		padding-right: 10px;
+	}
+	.icons a:nth-child(3){
+		padding-right: 25px;
+	}
+	.icons a:nth-child(6){
+		padding-right: 0px;
+	}
+}
