@@ -200,6 +200,13 @@ header > h1 {
 	height: 100%;
 }
 
+@media(max-width:575px) {
+	#music .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
 /********VIDEO********/
 #video{
 	padding-top: 66px;
