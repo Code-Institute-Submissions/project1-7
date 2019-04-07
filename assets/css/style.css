@@ -173,13 +173,48 @@ header > h1 {
 	}
 }
 
-.album-cover > img {
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(70,70,70,1);
-	-moz-box-shadow: 0px 0px 15px 0px rgba(70,70,70,1);
-	box-shadow: 0px 0px 15px 0px rgba(70,70,70,1);
+/* display text on hover
+   source: https://stackoverflow.com/questions/52846599/html-blur-image-on-hover-w-text/52847870#52847870
+*/
+.album-cover{
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	overflow: hidden;
+  }
+  
+.album-cover img {
+	transition: all .5s ease-in-out;
+  }
+  
+.album-cover:hover img {
+	filter: blur(3px);
+	transform: scale(1.03);
+	opacity: 0.5;
+  }
+  
+.album-cover:hover .text {
+	opacity: 1;
+  }
+  
+.album-cover .text {
+	color: white;
+	font-size: 0.9em;
+	letter-spacing: 2px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: opacity .5s ease-in-out;
+	text-align: center;
+  }
+
+.text {
+	text-transform: uppercase;
+	font-weight: bold;
+	
 }
-
-
 
 /* responsive spotify player, source: http://jsfiddle.net/JMPerez/qa73L/ */
 .embed-container {
