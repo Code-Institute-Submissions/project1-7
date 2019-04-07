@@ -385,3 +385,10 @@ h6:nth-of-type(2) {
 		padding-right: 0px;
 	}
 }
+
+/********Copyright********/
+.copyright p {
+	padding-top: 20px;
+	font-size: 0.9em;
+	color: #6c757d;
+}
