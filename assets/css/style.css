@@ -155,13 +155,13 @@ header > h1 {
 	padding: 66px 0px 0px 0px;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
 	.albums > .col-sm-12 {
 		padding: 0px 50px 30px 50px;
 	}
 }
 
-@media (min-width:769px) {
+@media (min-width:768px) {
 	.albums > .col-md-6 {
 		padding-bottom: 30px;
 	}
