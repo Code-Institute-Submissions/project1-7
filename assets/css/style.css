@@ -465,6 +465,14 @@ h6:nth-of-type(2) {
 	color:white;
 }
 
+/* bottom bar */
+
+#bottom-bar{
+	background-color: #000000;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
 /********ICONS********/
 .icons a {
 	color: #7a7a7a;
@@ -498,7 +506,9 @@ h6:nth-of-type(2) {
 
 /********Copyright********/
 .copyright p {
-	padding-top: 20px;
+	padding-top: 10px;
+	margin-bottom: 0;
+	
 	font-size: 0.9em;
 	color: #6c757d;
 }
