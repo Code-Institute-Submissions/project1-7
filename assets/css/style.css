@@ -17,6 +17,10 @@ h1, h3 {
 	text-shadow: 2px 2px 4px #444444;
 }
 
+h1 {
+	padding-bottom: 10px;
+}
+
 /********NAVBAR********/
 .navbar{
 	text-transform: uppercase;
@@ -66,17 +70,48 @@ header{
 
 header > h1 {
 	color: white;
-	font-size: 6em;
+
+	font-size: 10vw;
 	font-family: 'Cinzel';
 	font-weight: bold;
+	white-space: nowrap;
 
 	text-shadow: 2px 2px 4px #555555;
 
     position: absolute;
     top:  50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	
+	padding-bottom: 0px;
+
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
+
+@media(min-width:576px){
+	header > h1 {
+		font-size: 3.6em;
+	}
+}
+
+/* https://www.tutorialspoint.com/css/css_animation_fade_in.htm */
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0.;}
+	100% {opacity: 1;}
+ }
+ 
+ @keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+ }
+ 
+ .fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+ }
 
 /********ABOUT********/
 
@@ -267,7 +302,7 @@ header > h1 {
 }
 
 .tour-dates {
-	padding-top: 25px;
+	/* padding-top: 25px; */
 }
 
 /* grid styling */
