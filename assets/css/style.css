@@ -234,10 +234,10 @@ header > h1 {
 	height: 100%;
 }
 
-@media(max-width:575px) {
-	#music .container {
-		padding-left: 0;
-		padding-right: 0;
+@media(max-width:767px) {
+	.embed-container {
+		margin-left: 6.9%;
+		margin-right: 6.9%;
 	}
 }
 
