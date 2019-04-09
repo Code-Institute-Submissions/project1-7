@@ -192,7 +192,6 @@ header > h1 {
 	transform: scale(1.03);
 	opacity: 0.5;
   }
-  
 .album-cover:hover .text {
 	opacity: 1;
   }
@@ -242,6 +241,14 @@ header > h1 {
 	}
 }
 
+@media(min-width:992px) {
+	.embed-container{
+		/* margin-left: 285px;
+		margin-right: 285px; */
+		margin-left: 25.6756757%;
+		margin-right: 25.6756757%;	
+	}
+}
 /********VIDEO********/
 #video{
 	padding-top: 66px;
