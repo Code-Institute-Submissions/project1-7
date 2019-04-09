@@ -40,6 +40,14 @@ h1 {
 	a.nav-link {
 		
 	}
+	.logo-middle > img{
+		display: none;
+	}
+}
+@media(min-width:768px) {
+	.logo-left > img{
+		display: none;
+	}
 }
 
 /********LANDING-VIEW********/
