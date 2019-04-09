@@ -131,7 +131,7 @@ header > h1 {
 
 #about {
 	
-	background-color: #000000;
+	background-color: #010705;
 }
 @media(min-width:992px){
 
@@ -191,7 +191,7 @@ header > h1 {
 /********PHOTO********/
 
 #photo {
-	background: #000000;
+	background: #010705;
 	padding-top: 66px;
 }
 
@@ -205,6 +205,8 @@ header > h1 {
 #music {
 	background-color: #1f1f1f;
 	padding: 66px 0px 0px 0px;
+	background-image: url("../images/background/bg.jpg");
+	background-size: cover;
 }
 
 @media (max-width:767px) {
@@ -309,6 +311,7 @@ header > h1 {
 /********VIDEO********/
 #video{
 	padding-top: 66px;
+	background-color: #140F07;
 }
 
 /********TOUR********/
