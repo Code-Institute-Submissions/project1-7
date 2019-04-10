@@ -163,6 +163,10 @@ header > h1 {
 	font-weight: bold;
 }
 
+.modal-content {
+	border: 1px solid rgb(139, 139, 139) !important;
+}
+
 .modal-header {
 	background-color: black !important;
 }
@@ -174,20 +178,22 @@ header > h1 {
 
 /* modal close button */
 
-.modal-footer > .btn {
-	color: #dbdada;
-	background-color: #1f1f1f;
+.modal-footer .btn {
+	color: #ebebeb;
+	background-color: #7a7a7a !important;
 	border-color: #9b9b9b;
 	border-radius: 5px;
 }
 
-.modal-footer > .btn:focus, .btn:hover{
-	background-color: #000000 !important;
+.modal-footer > .btn:hover {
+	background-color: #575757 !important;
+}
+
+.modal-footer > .btn:focus {
+	background-color: #333333 !important;
 	border-color: #9b9b9b !important;
 	box-shadow:none !important;
 }
-
-
 /********PHOTO********/
 
 #photo {
