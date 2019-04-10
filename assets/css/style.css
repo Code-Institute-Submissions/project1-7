@@ -404,6 +404,7 @@ button[type=submit] {
 }
 button[type=submit]:hover {
 	background-color: #575757 !important;
+	border-color: #9b9b9b !important;
 }
 
 button[type=submit]:focus {

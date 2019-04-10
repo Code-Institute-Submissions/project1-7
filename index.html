@@ -344,7 +344,7 @@
 				<div class="container vertical-center text-center">
 					<form id="newsletter-form" class="container form-inline justify-content-center ">
 						<div class="form-group">
-							<input id="email-input" class="form-control" id="newsletter" type="email" aria-describedby="emailHelp" placeholder="email">
+							<input id="email-input" class="form-control" type="email" aria-describedby="emailHelp" placeholder="email" required="">
 							<button type="submit" class="btn btn-primary">Sign up</button>
 						</div>
 						<small class="form-text text-muted">We respect your privacy</small>
@@ -414,15 +414,5 @@ $(document).ready(function() {
 	});
 });
 </script>
-
-<!-- <script>
-$(document).ready(function($) {
-  $(document).on('submit', '#submit-form', function(event) {
-    event.preventDefault();
-  
-    // alert('page did not reload');
-  });
-});
-</script> -->
 </body>
 </html>
