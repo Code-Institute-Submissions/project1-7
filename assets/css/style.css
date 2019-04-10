@@ -406,6 +406,10 @@ button[type=submit]:focus {
 	box-shadow:none !important;
 }
 
+form small {
+	margin-right: 100px;
+}
+
 @media(max-width:575px) {
 	::placeholder {
 		text-align: center;
@@ -413,6 +417,9 @@ button[type=submit]:focus {
 	input[type=email]{
 		margin-right: 0px;
 		width: 70vw;
+	}
+	form small {
+		margin-right: 0px;
 	}
 }
 

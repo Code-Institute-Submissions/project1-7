@@ -342,9 +342,9 @@
 			<div class="col-sm-12 col-md-6 newsletter">
 				<h3>Newsletter</h3>
 				<div class="container vertical-center text-center">
-					<form action="" class="container form-inline justify-content-center ">
+					<form id="newsletter-form" class="container form-inline justify-content-center ">
 						<div class="form-group">
-							<input class="form-control" id="newsletter" type="email" aria-describedby="emailHelp" placeholder="email">
+							<input id="email-input" class="form-control" id="newsletter" type="email" aria-describedby="emailHelp" placeholder="email">
 							<button type="submit" class="btn btn-primary">Sign up</button>
 						</div>
 						<small class="form-text text-muted">We respect your privacy</small>
@@ -395,5 +395,34 @@
     $('.navbar-collapse').collapse('hide');
 });
 </script>
+
+<script>
+$(document).ready(function() {
+    $(document).on('submit', '#newsletter-form', function() {
+		var x;
+		x = document.getElementById("email-input").value;
+		if(x == ""){
+			return false;
+		}
+		else {
+			document.getElementById("email-input").disabled = true; 
+			document.getElementById("email-input").style.textTransform = "uppercase"; 
+			document.getElementById("email-input").style.textAlign = "center";
+			document.getElementById("email-input").value = "thank you";
+			return false;
+		}
+	});
+});
+</script>
+
+<!-- <script>
+$(document).ready(function($) {
+  $(document).on('submit', '#submit-form', function(event) {
+    event.preventDefault();
+  
+    // alert('page did not reload');
+  });
+});
+</script> -->
 </body>
 </html>
