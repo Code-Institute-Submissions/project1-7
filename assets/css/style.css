@@ -30,6 +30,12 @@ h1 {
 	visibility: hidden;
 	}
 
+@media(max-width: 767px){
+	.anchor{
+		top: 25px;
+		}
+}
+
 /********NAVBAR********/
 .navbar{
 	text-transform: uppercase;
@@ -197,10 +203,14 @@ header > h1 {
 	background-color: #575757 !important;
 }
 
-.modal-footer > .btn:focus {
+.modal-footer > .btn:focus{
 	background-color: #333333 !important;
 	border-color: #9b9b9b !important;
 	box-shadow:none !important;
+}
+
+.modal-footer > .btn:active{
+	border-color: #9b9b9b !important;
 }
 /********PHOTO********/
 
@@ -311,6 +321,8 @@ header > h1 {
 	.embed-container {
 		margin-left: 6.9%;
 		margin-right: 6.9%;
+
+		margin-top: 50px;
 	}
 }
 
