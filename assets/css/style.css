@@ -126,7 +126,7 @@ header > h1 {
 	}
 }
 
-/* https://www.tutorialspoint.com/css/css_animation_fade_in.htm */
+/* landing view header fade in */
 @-webkit-keyframes fadeIn {
 	0% {opacity: 0.;}
 	100% {opacity: 1;}
@@ -151,7 +151,6 @@ header > h1 {
 @media(min-width:992px){
 
 	#img-top {
-		/* padding: 0; */
 		padding: 0 15% 0 15%;
 	}
 }
@@ -233,6 +232,7 @@ header > h1 {
 	background-size: cover;
 }
 
+/* albums grid */
 @media (max-width:767px) {
 	.albums > .col-sm-12 {
 		padding: 0px 50px 30px 50px;
@@ -256,9 +256,7 @@ header > h1 {
 	border-color: #474747;
 }
 
-/* display text on hover
-   source: https://stackoverflow.com/questions/52846599/html-blur-image-on-hover-w-text/52847870#52847870
-*/
+/* display text on hover */
 .album-cover{
 	position: relative;
 	display: inline-block;
@@ -298,7 +296,7 @@ header > h1 {
 	
 }
 
-/* responsive spotify player, source: http://jsfiddle.net/JMPerez/qa73L/ */
+/* responsive spotify player */
 .embed-container {
     position: relative;
     padding-bottom: 400px;
@@ -328,8 +326,6 @@ header > h1 {
 
 @media(min-width:992px) {
 	.embed-container{
-		/* margin-left: 285px;
-		margin-right: 285px; */
 		margin-left: 25.6756757%;
 		margin-right: 25.6756757%;	
 	}
@@ -350,10 +346,6 @@ header > h1 {
 	font-weight: bold;
 
 	line-height: 2;
-}
-
-.tour-dates {
-	/* padding-top: 25px; */
 }
 
 /* grid styling */
@@ -392,7 +384,7 @@ header > h1 {
 #follow {
 	padding-bottom: 40px;
 }
-/********NEWSLETTER********/
+/****NEWSLETTER****/
 
 .newsletter > div {
 	padding-top: 15px;
@@ -483,23 +475,15 @@ h6{
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 0.9em;
-	/* font-family: ; */
-	
 }
 
-h6:nth-of-type(2) {
-	padding-top: 10px;
-}
-
+/* email address */
 .contact a {
 	color: #dbdada;
-	/* text-decoration: none; */
 }
 .contact a:hover{
 	color:white;
 }
-
-/* bottom bar */
 
 #bottom-bar{
 	background-color: #000000;
